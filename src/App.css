@@ -1,0 +1,229 @@
+.App{
+    text-align: center;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    background-color: orange;
+}
+.searchbox{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.small-img{
+    height: 200px;
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+h1{
+    font-size: 20px;
+    margin: 20px 30px;
+}
+.btn{
+    background-color: orange !important;
+    color: white !important;
+    box-shadow: none;
+
+}
+.bs{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px;
+    text-align: left;
+
+}
+
+.content{
+    display: flex; 
+    grid-gap: 40px;
+    margin: 20px 30px;
+}
+
+.detailcard{
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+.detail1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.detail{
+  width: 90%;
+  margin: 20px auto;
+  font-size: 15px;
+  text-align: left;
+}
+.detail h1{
+  font-size: 25px;
+
+}
+
+.info{
+  display: flex; 
+  margin: 20px 30px;
+}
+.left{
+  width: 50%;
+  text-align: left;
+ 
+}
+.right{
+  width: 50%;
+}
+ 
+
+.images{
+    width: 55%;
+    height: 100%;
+    margin: 100px auto;
+  }
+
+  .images img {
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+  }
+  .datebox{
+    width: 80%;
+    margin: 20px auto;
+}
+.time{
+  width: 70%;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap:20px
+
+}
+
+.times {
+  background-color: orange;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  color: white;
+  padding:10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  vertical-align: center;
+  text-align:center;
+}
+
+.timesv:hover { 
+  background-color: #2CA893;
+  cursor: pointer;
+}
+
+.line{
+  width: 150px;
+  height: 4px;
+  background: orange;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.btn{
+  cursor: pointer;
+}
+
+@media only screen and (max-width:1024px) {
+  .images {
+    width: 55%;
+    height: 100%;
+    margin: 5px auto;
+  }
+  .detail1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.detail {
+  width: 90%;
+  margin: 20px auto;
+  font-size: 12px;
+  text-align: left;
+}
+
+.images img {
+  height: 350px;
+  width: 100%;
+  padding: 10px;
+}
+.times {
+  background-color: orange;
+  width: auto;
+  height: 30px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  vertical-align: center;
+  text-align: center;
+}
+
+}
+ 
+@media only screen and (max-width:850px) {
+  
+  .images{
+    width: 100%;
+   height: 100%;
+   margin: 30px auto;
+   
+  }
+
+  .images img {
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .detail1{
+    width: 100%;
+    margin: 20px auto;
+}
+.detail{
+  font-size: 15px;
+}
+  .datebox{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.time{
+  width: 85%;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap:20px
+
+}
+.times{
+  font-size: 15px;
+}
+.detailcard{
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+}
+
+@media only screen and (max-width:450px) {
+  .images img {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+  } 
+}
